@@ -14,7 +14,7 @@ const Contact = () => {
                 'service_5b01jnt',
                 'template_5f5v3xj',
                 refForm.current,
-                'al-8TJwbM215pa4Th'
+                `process.env.EMAILJS_PUB_KEY`
             )
             .then(
                 () => {
